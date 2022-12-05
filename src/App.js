@@ -10,11 +10,13 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Error from "./Components/Error";
 import Calculator from "./Components/Calculator";
+import Pokemon from "./Components/Pokemon";
 function App() {
   const [toggle, updateToggle] = useState(false);
   return (
     <>
       <div className="main">
+        <Pokemon />
         {/* Coba membuat kalkulator
         <Calculator /> */}
         {/* Belajar routing dengan react-router-DOM
