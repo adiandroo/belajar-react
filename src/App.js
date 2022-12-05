@@ -11,12 +11,14 @@ import About from "./Components/About";
 import Error from "./Components/Error";
 import Calculator from "./Components/Calculator";
 function App() {
-  const [togggle, updateToggle] = useState(false);
+  const [toggle, updateToggle] = useState(false);
   return (
     <>
       <div className="main">
-        <Calculator />
-        {/* <Routes>
+        {/* Coba membuat kalkulator
+        <Calculator /> */}
+        {/* Belajar routing dengan react-router-DOM
+        <Routes>
           <Route
             path="/"
             element={
@@ -36,16 +38,18 @@ function App() {
             }
           />
           <Route path="*" element={<Error />} />
-        </Routes>
+        </Routes> */}
+        {/* Belajar state management
         <Counter /> */}
-        {/* <button
+        {/* Belajar memunculkan output setelah button di klik
+        <button
           onClick={() => {
-            updateToggle(!togggle);
+            updateToggle(!toggle);
           }}
         >
           Toggle
         </button>
-        {togggle && <Conditional />} */}
+        {toggle && <Conditional />} */}
       </div>
     </>
   );
